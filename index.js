@@ -21,7 +21,7 @@ function reduceToTotal(sourceArray, startingPoint=0){
   return sa
 }
 
-function reduceToAnyTure(sourceArray){
+function reduceToAllTure(sourceArray){
   return sourceArray.reduce((acc, val) => acc && Boolean(val), true);
   
 }
