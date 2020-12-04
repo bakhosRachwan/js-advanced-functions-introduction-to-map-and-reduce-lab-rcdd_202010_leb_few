@@ -26,7 +26,7 @@ function reduceToAllTrue(sourceArray){
      acc && Boolean(val), true);
    return se
 }
-function reduceToAnyTure(sourceArray){
+function reduceToAnyTrue(sourceArray){
   let sf = sourceArray.reduce((acc, val) => 
      acc || Boolean(val), true);
    return sf
