@@ -22,6 +22,6 @@ function reduceToTotal(sourceArray, startingPoint=0){
 }
 
 function reduceToAnyTure(sourceArray){
-  let ret = sourceArray.reduce(element => {return (element ? true : false)})
-  return ret
+  return sourceArray.reduce((acc, val) => acc && Boolean(val), true);
+  
 }
