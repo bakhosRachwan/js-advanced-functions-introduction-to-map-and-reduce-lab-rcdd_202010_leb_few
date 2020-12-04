@@ -22,7 +22,7 @@ function reduceToTotal(sourceArray, startingPoint=0){
 }
 
 function reduceToAllTure(sourceArray){
-  let sa = sourceArray.reduce((acc, val) => 
+  let se = sourceArray.reduce((acc, val) => 
      acc && Boolean(val), true);
-   return sa
+   return se
 }
