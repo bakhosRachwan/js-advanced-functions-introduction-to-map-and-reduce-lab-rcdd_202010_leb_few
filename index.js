@@ -20,3 +20,7 @@ function reduceToTotal(sourceArray, startingPoint=0){
   let sa = sourceArray.reduce((accumulator, currentValue) => { return accumulator+currentValue}, startingPoint) 
   return sa
 }
+
+function reduceToAllTure(sourceArray){
+  
+}
