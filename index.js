@@ -28,6 +28,6 @@ function reduceToAllTrue(sourceArray){
 }
 function reduceToAnyTure(sourceArray){
   let sf = sourceArray.reduce((acc, val) => 
-     acc || Boolean(val), false);
+     acc || Boolean(val), true);
    return sf
 }
