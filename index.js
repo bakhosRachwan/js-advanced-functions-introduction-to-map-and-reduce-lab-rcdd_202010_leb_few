@@ -26,8 +26,8 @@ function reduceToAllTure(sourceArray){
      Boolean(acc) && Boolean(val), true);
    return se
 }
-function reduceToAllTure(sourceArray){
+function reduceToAnyTure(sourceArray){
   let se = sourceArray.reduce((acc, val) => 
-     Boolean(acc) && Boolean(val), true);
+     Boolean(acc) || Boolean(val), true);
    return se
 }
