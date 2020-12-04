@@ -22,6 +22,6 @@ function reduceToTotal(sourceArray, startingPoint=0){
 }
 
 function reduceToAllTure(sourceArray){
-  let ret = sourceArray.reduce(element => {return (elem ? true : false)})
+  let ret = sourceArray.reduce(element => {return (element ? true : false)})
   return ret
 }
